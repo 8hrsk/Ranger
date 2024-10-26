@@ -109,7 +109,7 @@ console.log(password);
   - `name` (string, optional): Name for the email.
   - `surname` (string, optional): Surname for the email.
   - `year` (number, optional): Year for the email.
-  - Returns an object with a randomly generated `email`.
+- Returns an object with a randomly generated `email`.
   
 ### `nickname()`
 - Returns an object with a randomly generated `nickname`.
