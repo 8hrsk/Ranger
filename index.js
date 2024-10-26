@@ -123,6 +123,19 @@ class Ranger {
      */
 
     email(name = null, surname = null, year = null) {
+
+        if (name !== null && typeof name !== 'string') {
+            throw new Error('Name must be a string');
+        }
+
+        if (surname !== null && typeof surname !== 'string') {
+            throw new Error('Surname must be a string');
+        }
+
+        if (year !== null && typeof year !== 'number') {
+            throw new Error('Year must be a number');
+        }
+
         return {
             email: this.emailGenerator.generate(name, surname, year)
         }

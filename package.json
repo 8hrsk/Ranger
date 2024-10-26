@@ -1,12 +1,12 @@
 {
   "name": "@8hrsk/ranger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {},
   "keywords": [ "data", "generator", "factory", "faker" ],
   "author": "8hoursking",
   "license": "ISC",
-  "description": "Package for generating fake data for user",
+  "description": "Package for generating fake userdata",
   "dependencies": {
     "@8hrsk/jmd5": "^1.0.2"
   }
