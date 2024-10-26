@@ -10,10 +10,12 @@ You can install the Ranger module using npm:
 npm install @8hrsk/ranger
 ```
 
-## Usage\n\nTo start using Ranger, require the module and create an instance of the Ranger class:
+## Usage
+
+To start using Ranger, require the module and create an instance of the Ranger class:
 
 ```javascript
-const Ranger = require('ranger');
+const Ranger = require('@8hrsk/ranger');
 const ranger = new Ranger();
 ```
 
@@ -39,7 +41,9 @@ console.log(users);
 
 Ranger provides methods to generate individual properties:
 
-#### Name\n\nGenerate a random name:
+#### Name
+
+Generate a random name:
 
 ```javascript
 const name = ranger.name();
