@@ -119,6 +119,7 @@ console.log(password);
 
 ## Error Handling
 - The `Users` method throws an error if the `amount` is not a number.
+- The `email` methods throws errors if the `name` or `surname` are given, but now strings, and `year` given, but not a number.
 
 ## License
 
